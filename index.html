@@ -8,42 +8,18 @@
 </head>
 <body>
     <h1>Hangman Game!</h1>
-    <h3>Question : <span>what is life?</span></h3>
-    <div class="wordsWrapper">
-        <button value="A">A</button>
-        <button value="B">B</button>
-        <button value="C">C</button>
-        <button value="D">D</button>
-        <button value="E">E</button>
-        <button value="F">F</button>
-        <button value="G">G</button>
-        <button value="H">H</button>
-        <button value="I">I</button>
-        <button value="J">J</button>
-        <button value="K">K</button>
-        <button value="L">L</button>
-        <button value="M">M</button>
-        <button value="N">N</button>
-        <button value="O">O</button>
-        <button value="P">P</button>
-        <button value="Q">Q</button>
-        <button value="R">R</button>
-        <button value="S">S</button>
-        <button value="T">T</button>
-        <button value="U">U</button>
-        <button value="V">V</button>
-        <button value="W">W</button>
-        <button value="X">X</button>
-        <button value="Y">Y</button>
-        <button value="Z">Z</button>
+    <h3>Click the words to guess the answer, or click hint to get a clue</h3>
+    <div class="wrapper">
+        <div class="alphabetWrapper"></div>
+        <div id="lives"></div>
+        <div class="category"> Category : </div>
+        <div id="hold"></div>
+        <div id="clue">Clue -</div>
     </div>
-    <form class="answer">
-        <input type="text" id="answer__form"/>
-        <button class="answer__submitBtn">Submit!</button>
-    </form>
-    <div class="lower">
-        <h3>correct!</h3>
-        <button class="lower__restart">Play Again</button>
+    <div class="buttonWrapper">
+        <button id="hint">Hint</button>
+        <button id="reset">Reset</button>
+    </div>
     </div>
     <script type='module' src="./dist/index.js"></script>
 </body>
