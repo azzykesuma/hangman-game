@@ -7,7 +7,7 @@ export const questions : string[] = [
 // those two array need to have identical indexes
 export const answers : string[][] = [
     ['jakarta','bandung','yogyakarta','fak-fak','lampung'],
-    ['rendang','nasi uduk', 'pecel-lele','sagu'], 
+    ['rendang','nasi-uduk', 'pecel-lele','sagu'], 
     ['swedia','prancis','ethiopia','amerika'],
 ]
 
